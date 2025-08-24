@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site no GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(120deg, #6dd5ed, #2193b0);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #fff;
+        }
+        header {
+            background: rgba(0,0,0,0.3);
+            padding: 32px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(0,0,0,0.20);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.22);
+        }
+        .github, .zclaw {
+            display: inline-block;
+            background: #fff;
+            color: #2193b0;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 24px;
+            border-radius: 8px;
+            margin-top: 24px;
+            margin-right: 14px;
+            transition: background 0.2s;
+        }
+        .github:hover, .zclaw:hover {
+            background: #2193b0;
+            color: #fff;
+        }
+        .zclaw {
+            background: #ffe64d;
+            color: #222;
+        }
+        .zclaw:hover {
+            background: #222;
+            color: #ffe64d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site no GitHub!</h1>
+        <p>Site publicado usando <strong>GitHub Pages</strong>.</p>
+    </header>
+    <main>
+        <h2>Opções</h2>
+        <a class="github" href="https://github.com/" target="_blank">Visite o GitHub</a>
+        <a class="zclaw" href="https://linkvertise.com/1261358/g308y2yoSuES?o=sharing" target="_blank">Executor ZClaw</a>
+        <h2>Sobre</h2>
+        <p>Edite este arquivo (<code>index.html</code>) para criar seu próprio site pessoal, portfólio, página de projetos ou qualquer coisa que quiser mostrar!</p>
+    </main>
+</body>
+</html>
